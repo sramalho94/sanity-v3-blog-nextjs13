@@ -8,14 +8,11 @@ const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!
 
 export default defineConfig({
   basePath: '/studio',
-  name: 'default',
-  title: 'nextjs13 sanity blog',
-
-  projectId: 'kfdpctqa',
-  dataset: 'production',
-
+  name: 'SRAMALHO94_Content_Studio',
+  title: 'SRAMALHO94 Content Studio',
+  projectId,
+  dataset,
   plugins: [deskTool(), visionTool()],
-
   schema: {
     types: schemaTypes
   }
